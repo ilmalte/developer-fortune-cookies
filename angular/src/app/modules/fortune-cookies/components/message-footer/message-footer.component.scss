@@ -1,0 +1,15 @@
+.message-footer {
+    @apply flex-row mt-6 font-mono;
+}
+.message-footer-info {
+    @apply flex justify-center;
+}
+.message-footer-export {
+    @apply flex justify-center;
+}
+.message-footer-language-text {
+    @apply flex justify-center mt-8 p-2;
+}
+.message-footer-language-icon {
+    @apply flex justify-center;
+}

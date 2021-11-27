@@ -1,0 +1,32 @@
+<ng-container *ngIf="_fortuneCookie">
+    <header>
+        <fortune-cookie-header></fortune-cookie-header>
+    </header>
+    <main class="fortune-cookie-container">
+        
+        <span class="fortune-cookie-sections">
+            <section>
+
+                <fortune-cookie-message 
+                id="fortune-cookie" 
+                [fortuneCookie]="_fortuneCookie" 
+                (copyFortuneCookie)="copy()"
+                (exportFortuneCookie)="export()"
+                (reloadFortuneCookie)="getFortuneCookie()"></fortune-cookie-message>
+                
+                <fortune-cookie-message-footer 
+                (exportFortuneCookie)="export()"></fortune-cookie-message-footer>
+
+            </section>
+            <section>
+                
+                <translate-language
+                #translateLanguage></translate-language>
+                
+            </section>
+        </span>
+    </main>
+    <footer>
+        <fortune-cookie-footer></fortune-cookie-footer>
+    </footer>
+</ng-container>

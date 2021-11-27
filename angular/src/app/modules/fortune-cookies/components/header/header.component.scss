@@ -1,0 +1,7 @@
+.header {
+    @apply flex justify-center items-end p-3;
+}
+
+.header-title {
+    @apply text-3xl text-center font-medium font-mono;
+}

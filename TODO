@@ -1,0 +1,14 @@
+# TODO LIST
+
+# General
+[ ] Translate everything using i18 (in progress)
+[ ] Change DNS and use developer-fortune-cookies.danielemaltese.com
+
+# Styling (TaildindCSS)
+[ ] Mobile layout, responsive
+    https://tailwindcss.com/docs/responsive-design
+[ ] Add animation (scale-item) on "message" when clicked on items with class "scale-item-sm"
+
+# Github Actions
+[ ] Write a script that tweets a fortune cookie every day
+[ ] Deploy on gh-pages when new commit arrives!

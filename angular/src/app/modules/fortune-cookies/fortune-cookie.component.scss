@@ -1,0 +1,12 @@
+.fortune-cookie-container {
+    @apply flex items-center justify-center px-4;
+    background-color: white; //bg-white
+}
+
+.fortune-cookie-sections {
+    @apply flex-row;
+}
+
+main {
+    flex: 1; /* Or flex-grow: 1;*/
+}

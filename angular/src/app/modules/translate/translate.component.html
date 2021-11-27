@@ -1,0 +1,13 @@
+<translate-language-banner 
+#languageBanner
+*ngIf="showBanner"
+[currentLanguage]="currentLanguage"
+(openModal)="openModal()"
+(closed)="closeBanner()"
+></translate-language-banner>
+<translate-language-modal
+#languageModal
+*ngIf="showModal"
+[translations]="translations"
+(closed)="closeModal()"
+></translate-language-modal>

@@ -1,0 +1,73 @@
+.em,.em-svg{
+    height: 3em;
+    width: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle
+}
+.em-fortune_cookie {
+    background-image:url("../../../../../assets/fortune-cookie.png")
+}
+.em-fortune_cookie .em-svg {
+    background:url("../../../../../assets/fortune-cookie.png");
+    background-image:url("../../../../../assets/fortune-cookie.svg"), none
+}
+
+
+.scale-item {
+    transition: all .2s ease-in-out;
+}
+.hover\:scale-item:hover {
+    transform: scale(1.05);
+}
+
+
+.scale-item-sm {
+    transition: all .2s ease-in-out;
+}
+.hover\:scale-item-sm:hover {
+    transform: scale(1.3);
+}
+
+
+.message {
+    // TODO (style): Add animation (scale-item) on "message" when clicked on items with class "scale-item-sm"
+    @apply max-w-4xl w-full rounded-lg p-7 flex flex-row;
+    background-color: white; //bg-white
+}
+.message-shadow {
+    @apply shadow-lg;
+}
+.message-col1 {
+    @apply md:px-2 mt-3 mr-10 md:mt-0 items-center flex;
+}
+.message-col2 {
+    @apply flex-1;
+}
+.message-icon {
+    @apply em em-fortune_cookie text-3xl hover:scale-item;
+}
+.message-text {
+    @apply font-semibold text-4xl tracking-wide;
+}
+.message-bottom {
+    @apply flex justify-items-end text-gray-500 text-lg my-4;
+}
+.message-bottom-hidden {
+    display: none;
+}
+.message-author {
+    flex-grow: 3;
+}
+.message-copyright {
+    @apply text-sm;
+    margin-left: auto;
+}
+.message-copyright-hidden {
+    display: none;
+}
+.message-icon-sm {
+    @apply p-2;
+}

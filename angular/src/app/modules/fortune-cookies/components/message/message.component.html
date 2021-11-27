@@ -1,0 +1,22 @@
+<div class="message message-shadow">
+    <div class="message-col1">
+        <i class="message-icon" (click)="reload()"
+            aria-label="FORTUNE COOKIE"></i>
+    </div>
+    <div class="message-col2">
+        <h3 class="message-text" (click)="reload()">
+            {{ fortuneCookie?.text }}
+        </h3>
+        <div class="message-bottom">
+            <h6 class="message-author" (click)="reload()">{{ fortuneCookie?.author }}</h6>
+            <i class="far fa-copy message-icon-sm" (click)="copy()"></i>
+            <i class="fas fa-camera message-icon-sm" (click)="export()"></i>
+            <i class="fas fa-sync-alt message-icon-sm" (click)="reload()"></i>
+        </div>
+        <div class="message-bottom message-bottom-hidden">
+            <h6 class="message-copyright message-copyright-hidden" (click)="reload()">
+                https://ilmalte.github.io/developer-fortune-cookies/
+            </h6>
+        </div>
+    </div>
+</div>

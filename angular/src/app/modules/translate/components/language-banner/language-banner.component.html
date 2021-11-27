@@ -1,0 +1,9 @@
+<notification-card 
+class="language-banner"
+[icon]="'fas fa-globe-europe'" 
+[title]="getTitle()"
+[text]="getText()"
+[action]="getAction()"
+(confirmed)="openLanguagesModal()"
+(dismissed)="closeBanner()"
+></notification-card>

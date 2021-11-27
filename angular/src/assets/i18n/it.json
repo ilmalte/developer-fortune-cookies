@@ -1,0 +1,16 @@
+{
+    "fortune-cookies": {
+        "header": {
+            "title": "Developer fortune cookies"
+        },
+        "message": {
+            "footer": {
+                "info": "Clicca il messaggio o il biscotto enorme per aprire un altro biscotto della fortuna.",
+                "export": "Puoi copiarlo nella tua clipboard oppure salvarlo come immagine!"
+            }
+        },
+        "footer": {
+            "github": "Pagina Github"
+        }
+    }   
+}

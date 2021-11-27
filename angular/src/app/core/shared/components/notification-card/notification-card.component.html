@@ -1,0 +1,27 @@
+<div class="notification-card">
+    <div class="notification-card-items">
+        <div class="notification-card-labels-group">
+            <div class="notification-card-icon">
+                <i class="{{ icon }} fa-2x"></i>
+            </div>
+            <div class="notification-card-labels">
+                <div class="notification-card-title" translate [translateParams]="params">
+                    {{ title }}
+                </div>
+                <p class="notification-card-text" translate>
+                    {{ text }}
+                </p>
+            </div>
+        </div>
+        <div class="notification-card-button-group">
+            <button class="notification-card-action bg-primary border-primary" 
+            (click)="confirm()" translate>
+                {{ action }}
+            </button>
+            <button class="notification-card-dismiss" 
+            (click)="dismiss()">
+                x
+            </button>
+        </div>
+    </div>
+</div>
