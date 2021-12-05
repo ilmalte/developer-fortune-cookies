@@ -24,9 +24,8 @@ jobs:
           npm run prod
 
       - name: Deploy
-        working-directory: ./angular
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FOLDER: ./dist
+          FOLDER: ./angular/dist
           BRANCH: gh-pages
