@@ -11,4 +11,4 @@
 
 # Github Actions
 [ ] Write a script that tweets a fortune cookie every day
-[ ] Deploy on gh-pages when new commit arrives!
+[x] Deploy on gh-pages when new commit arrives!
