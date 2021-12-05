@@ -6,11 +6,11 @@ Fortune cookies for developers. A simple Angular web application built using Tai
 
 [Try it!](https://ilmalte.github.io/developer-fortune-cookies/)
 
-### Why this project?
+## Why this project?
 Fortune cookies is a project born to test a way I found online to organize an Angular project.
 In the meanwhile I thought could be interesting to test TailwindCSS library for styling web application.
 
-### What you can do?
+## What you can do?
 Basically you can open developer fortune cookies and get inspired.
 You can export the generated fortune cookie as an image or copy it to the clipboard.
 
@@ -34,6 +34,7 @@ Please consider to also edit the JSON in your native language if exists.
 After cloning and forking the repo you should: 
 open the Angular folder, install required packages and then run the development environment.
 By default it will run the web application on port 4200.
+
 `cmd
     cd .\angular\
     npm install
