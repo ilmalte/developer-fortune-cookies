@@ -19,9 +19,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          cd ./angular
-          npm install
-          npm run prod
+          cd ./angular && npm install && npm run prod
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
