@@ -5,6 +5,7 @@
 [ ] Change DNS and use developer-fortune-cookies.danielemaltese.com
 
 # Styling (TaildindCSS)
+[ ] Export as image in Chrome it's not optimized
 [ ] Mobile layout, responsive
     https://tailwindcss.com/docs/responsive-design
 [ ] Add animation (scale-item) on "message" when clicked on items with class "scale-item-sm"
