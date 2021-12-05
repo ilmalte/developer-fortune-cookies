@@ -1,0 +1,16 @@
+{
+    "fortune-cookies": {
+        "header": {
+            "title": "Developer fortune cookies"
+        },
+        "message": {
+            "footer": {
+                "info": "Click the message or the big cookie to open a new developer fortune cookie.",
+                "export": "You can also copy it in your clipboard or save it as a picture!"
+            }
+        },
+        "footer": {
+            "github": "Github's page"
+        }
+    }   
+}
