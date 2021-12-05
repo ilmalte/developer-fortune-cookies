@@ -18,8 +18,8 @@ jobs:
           node-version: "10.x"
 
       - name: Install and Build
-        working-directory: ./angular
         run: |
+          cd ./angular
           npm install
           npm run prod
 
