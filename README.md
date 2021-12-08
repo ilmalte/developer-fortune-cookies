@@ -1,3 +1,4 @@
+[![continuous-integration-workflow](https://github.com/ilmalte/developer-fortune-cookies/actions/workflows/continuous_integration_workflow.yml/badge.svg)](https://github.com/ilmalte/developer-fortune-cookies/actions/workflows/continuous_integration_workflow.yml)
 # Developer fortune cookies
 > This is a WIP.
 Fortune cookies for developers. A simple Angular web application built using TailwindCSS.
